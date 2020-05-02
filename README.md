@@ -12,13 +12,6 @@ cd seafight/
 python3 app.py
 ```
 
-**Docker Hub image**: [https://hub.docker.com/r/streltsovd/sea-fight](https://hub.docker.com/r/streltsovd/sea-fight)
-
-```sh
-docker pull streltsovd/sea-fight
-docker run -it --rm --name sf streltsovd/sea-fight
-```
-
 **Dockerfile**:
 
 ```sh
@@ -28,6 +21,13 @@ docker build -t seafight .
 docker run -it --rm --name sf seafight
 ```
 
-### IMG
+**Docker Hub image**: [https://hub.docker.com/r/streltsovd/sea-fight](https://hub.docker.com/r/streltsovd/sea-fight)
 
-![game example](img/seafight.png)
+```sh
+docker pull streltsovd/sea-fight
+docker run -it --rm --name sf streltsovd/sea-fight
+```
+
+Image:
+
+![Image sea-fight](https://user-images.githubusercontent.com/64684838/80871458-6930da80-8cb5-11ea-9a80-1e62f935ddc5.png)
